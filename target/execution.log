@@ -1,0 +1,2181 @@
+15:08:00.800 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get localhost: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open home page),1682082480691,48,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	host: localhost
+=========================
+HTTP response:
+status:
+	200 OK
+headers:
+	Server: nginx/1.22.0
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+	Content-Type: text/html
+	Last-Modified: Fri, 01 Jul 2022 00:32:19 GMT
+	Transfer-Encoding: chunked
+	Connection: keep-alive
+	Vary: Accept-Encoding
+	ETag: W/"62be4093-11c0"
+	Expires: Fri, 21 Apr 2023 13:07:59 GMT
+	Cache-Control: no-cache
+	content-encoding: gzip
+
+body:
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Imports from the world"/><script src="/env-config.js"></script><link rel="manifest" href="/manifest.json"/><title>Importa - Importas from the world</title><link href="/static/css/7.1c265f44.chunk.css" rel="stylesheet"><link href="/static/css/main.f5fefcc9.chunk.css" rel="stylesheet"></head><body><div id="root"></div><script>!function(e){function t(t){for(var n,o,f=t[0],d=t[1],u=t[2],i=0,s=[];i<f.length;i++)o=f[i],Object.prototype.hasOwnProperty.call(c,o)&&c[o]&&s.push(c[o][0]),c[o]=0;for(n in d)Object.prototype.hasOwnProperty.call(d,n)&&(e[n]=d[n]);for(l&&l(t);s.length;)s.shift()();return a.push.apply(a,u||[]),r()}function r(){for(var e,t=0;t<a.length;t++){for(var r=a[t],n=!0,o=1;o<r.length;o++){var d=r[o];0!==c[d]&&(n=!1)}n&&(a.splice(t--,1),e=f(f.s=r[0]))}return e}var n={},o={6:0},c={6:0},a=[];function f(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.e=function(e){var t=[];o[e]?t.push(o[e]):0!==o[e]&&{3:1}[e]&&t.push(o[e]=new Promise((function(t,r){for(var n="static/css/"+({}[e]||e)+"."+{0:"31d6cfe0",1:"31d6cfe0",2:"31d6cfe0",3:"c691157b",4:"31d6cfe0",8:"31d6cfe0",9:"31d6cfe0",10:"31d6cfe0",11:"31d6cfe0",12:"31d6cfe0",13:"31d6cfe0",14:"31d6cfe0",15:"31d6cfe0",16:"31d6cfe0",17:"31d6cfe0",18:"31d6cfe0",19:"31d6cfe0",20:"31d6cfe0",21:"31d6cfe0",22:"31d6cfe0",23:"31d6cfe0",24:"31d6cfe0",25:"31d6cfe0",26:"31d6cfe0",27:"31d6cfe0"}[e]+".chunk.css",c=f.p+n,a=document.getElementsByTagName("link"),d=0;d<a.length;d++){var u=(l=a[d]).getAttribute("data-href")||l.getAttribute("href");if("stylesheet"===l.rel&&(u===n||u===c))return t()}var i=document.getElementsByTagName("style");for(d=0;d<i.length;d++){var l;if((u=(l=i[d]).getAttribute("data-href"))===n||u===c)return t()}var s=document.createElement("link");s.rel="stylesheet",s.type="text/css",s.onload=t,s.onerror=function(t){var n=t&&t.target&&t.target.src||c,a=new Error("Loading CSS chunk "+e+" failed.\n("+n+")");a.code="CSS_CHUNK_LOAD_FAILED",a.request=n,delete o[e],s.parentNode.removeChild(s),r(a)},s.href=c,document.getElementsByTagName("head")[0].appendChild(s)})).then((function(){o[e]=0})));var r=c[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=c[e]=[t,n]}));t.push(r[2]=n);var a,d=document.createElement("script");d.charset="utf-8",d.timeout=120,f.nc&&d.setAttribute("nonce",f.nc),d.src=function(e){return f.p+"static/js/"+({}[e]||e)+"."+{0:"b3d2e5a1",1:"9ed13724",2:"526c99e3",3:"92dec9f6",4:"acb95ef1",8:"1f2d5137",9:"459c8e1e",10:"5d93351b",11:"ae39d98c",12:"bf51a48a",13:"53163515",14:"536b2497",15:"32f574b3",16:"98c88f22",17:"a77c9767",18:"5334339f",19:"09a6da15",20:"4e69031c",21:"ab3d7833",22:"adf0ba2e",23:"44ddd510",24:"9b3dbfe7",25:"ae1516a3",26:"079b6395",27:"44c0ece4"}[e]+".chunk.js"}(e);var u=new Error;a=function(t){d.onerror=d.onload=null,clearTimeout(i);var r=c[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),o=t&&t.target&&t.target.src;u.message="Loading chunk "+e+" failed.\n("+n+": "+o+")",u.name="ChunkLoadError",u.type=n,u.request=o,r[1](u)}c[e]=void 0}};var i=setTimeout((function(){a({type:"timeout",target:d})}),12e4);d.onerror=d.onload=a,document.head.appendChild(d)}return Promise.all(t)},f.m=e,f.c=n,f.d=function(e,t,r){f.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(e,t){if(1&t&&(e=f(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(f.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)f.d(r,n,function(t){return e[t]}.bind(null,n));return r},f.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(t,"a",t),t},f.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},f.p="/",f.oe=function(e){throw console.error(e),e};var d=this["webpackJsonpshop-react"]=this["webpackJsonpshop-react"]||[],u=d.push.bind(d);d.push=t,d=d.slice();for(var i=0;i<d.length;i++)t(d[i]);var l=u;r()}([])</script><script src="/static/js/7.2dc47884.chunk.js"></script><script src="/static/js/main.99202d0a.chunk.js"></script></body></html>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.854 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+health/ping: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open home page),1682082480691,53,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/actuator/health/ping
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/vnd.spring-boot.actuator.v3+json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"status":"UP"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.870 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get content/boxes: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open home page),1682082480691,62,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/content/boxes/headerMessage?lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	404 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"errorCode":"404","message":"Resource not found [headerMessage] for store [DEFAULT]"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.877 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get category: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open home page),1682082480691,67,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category?store=DEFAULT&lang=en&page=0&count=20
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"totalPages":1,"number":3,"recordsTotal":3,"recordsFiltered":0,"categories":[{"id":1,"code":"DEFAULT","sortOrder":0,"visible":false,"featured":false,"lineage":"/1/","depth":0,"parent":null,"description":{"id":1,"language":"en","name":"Default category","description":"","friendlyUrl":"default-category","keyWords":null,"highlights":"","metaDescription":"","title":"Default category"},"productCount":0,"store":"DEFAULT","children":[]},{"id":50,"code":"tables","sortOrder":100,"visible":true,"featured":false,"lineage":"/50/","depth":0,"parent":null,"description":{"id":2,"language":"en","name":"Tables","description":"","friendlyUrl":"tables","keyWords":null,"highlights":"","metaDescription":"","title":"Tables"},"productCount":0,"store":"DEFAULT","children":[]},{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":3,"language":"en","name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":"DEFAULT","children":[]}]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.882 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get content/pages: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open home page),1682082480691,71,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/content/pages?store=DEFAULT&lang=en&page=0&count=20
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"totalPages":0,"number":0,"recordsTotal":0,"recordsFiltered":0,"items":[]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.889 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get store/DEFAULT: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open home page),1682082480691,76,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/store/DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"id":1,"code":"DEFAULT","name":"Default store","defaultLanguage":"en","currency":"CAD","inBusinessSince":"2021-10-02","email":"admin@shopizer.com","phone":"888-888-8888","template":null,"useCache":false,"currencyFormatNational":true,"retailer":true,"dimension":"IN","weight":"LB","currentUserLanguage":null,"address":{"stateProvince":"QC","country":"CA","address":"1234 Street address","postalCode":"H2H-2H2","city":"My city","active":true},"logo":{"name":"shopizer_resized_transparent.png","path":"http://localhost:8080/static/files/DEFAULT/LOGO/shopizer_resized_transparent.png"},"parent":null,"supportedLanguages":[{"code":"en","id":1}],"readableAudit":{"created":null,"modified":"2023-04-21","user":"admin@shopizer.com"}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.925 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Featured Item: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open home page),1682082480691,87,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/products/group/FEATURED_ITEM?store=DEFAULT&lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"totalPages":1,"number":4,"recordsTotal":4,"recordsFiltered":0,"products":[{"id":1,"productShipeable":true,"available":true,"visible":true,"sortOrder":100,"dateAvailable":"2022-01-10","creationDate":"2022-01-10","price":199.00,"quantity":1000,"sku":"table1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":22.00,"weight":12.00,"length":16.00,"width":40.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"table1","rentalDuration":0,"rentalPeriod":0,"description":{"id":1,"language":"en","name":"Olive Table","description":"Olive Table","friendlyUrl":"olive-table","keyWords":"","highlights":"","metaDescription":"","title":"Olive Table"},"productPrice":{"id":1,"originalPrice":"$199.00","finalPrice":"$199.00","discounted":false,"description":{"id":1,"language":"en","name":null,"description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null,"priceAppender":null}},"finalPrice":"$199.00","originalPrice":"$199.00","discounted":false,"image":{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"manufacturer":{"id":1,"code":"DEFAULT","order":0,"description":{"id":0,"language":null,"name":"DEFAULT","description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}},"attributes":[],"options":[],"variants":[],"properties":[],"categories":[{"id":50,"code":"tables","sortOrder":100,"visible":true,"featured":false,"lineage":"/50/","depth":0,"parent":null,"description":{"id":50,"language":null,"name":"Tables","description":"","friendlyUrl":"tables","keyWords":null,"highlights":"","metaDescription":"","title":"Tables"},"productCount":0,"store":null,"children":[]}],"type":null,"canBePurchased":true,"owner":null},{"id":50,"productShipeable":true,"available":true,"visible":true,"sortOrder":300,"dateAvailable":"2022-01-10","creationDate":"2022-01-11","price":99.00,"quantity":1000,"sku":"chair1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":32.00,"weight":4.00,"length":22.00,"width":44.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"chair1","rentalDuration":0,"rentalPeriod":0,"description":{"id":2,"language":"en","name":"Chair","description":"Chair from Thailand","friendlyUrl":"chair","keyWords":"","highlights":"","metaDescription":"","title":"Chair"},"productPrice":{"id":50,"originalPrice":"$99.00","finalPrice":"$99.00","discounted":false,"description":{"id":2,"language":"en","name":null,"description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null,"priceAppender":null}},"finalPrice":"$99.00","originalPrice":"$99.00","discounted":false,"image":{"id":50,"imageName":"ADESSO CHAIR BLACK_burned.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair1/SMALL/ADESSO CHAIR BLACK_burned.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":50,"imageName":"ADESSO CHAIR BLACK_burned.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair1/SMALL/ADESSO CHAIR BLACK_burned.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"manufacturer":{"id":1,"code":"DEFAULT","order":0,"description":{"id":0,"language":null,"name":"DEFAULT","description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}},"attributes":[],"options":[],"variants":[],"properties":[],"categories":[{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":51,"language":null,"name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":null,"children":[]}],"type":null,"canBePurchased":true,"owner":null},{"id":51,"productShipeable":true,"available":true,"visible":true,"sortOrder":320,"dateAvailable":"2022-01-10","creationDate":"2022-01-11","price":119.00,"quantity":1000,"sku":"chair2","preOrder":false,"productVirtual":true,"quantityOrderMaximum":1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":32.00,"weight":4.00,"length":16.00,"width":16.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"chair2","rentalDuration":0,"rentalPeriod":0,"description":{"id":3,"language":"en","name":"Chair Beige","description":"Beige Chair","friendlyUrl":"chair-beige","keyWords":"","highlights":"","metaDescription":"","title":"Chair Beige"},"productPrice":{"id":51,"originalPrice":"$119.00","finalPrice":"$119.00","discounted":false,"description":{"id":3,"language":"en","name":null,"description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null,"priceAppender":null}},"finalPrice":"$119.00","originalPrice":"$119.00","discounted":false,"image":{"id":51,"imageName":"ADESSO CHAIR TAUPE VIEW 5.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair2/SMALL/ADESSO CHAIR TAUPE VIEW 5.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":51,"imageName":"ADESSO CHAIR TAUPE VIEW 5.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair2/SMALL/ADESSO CHAIR TAUPE VIEW 5.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"manufacturer":{"id":1,"code":"DEFAULT","order":0,"description":{"id":0,"language":null,"name":"DEFAULT","description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}},"attributes":[],"options":[],"variants":[],"properties":[],"categories":[{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":51,"language":null,"name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":null,"children":[]}],"type":null,"canBePurchased":true,"owner":null},{"id":52,"productShipeable":true,"available":true,"visible":true,"sortOrder":340,"dateAvailable":"2022-01-10","creationDate":"2022-01-11","price":249.99,"quantity":500,"sku":"chair3","preOrder":false,"productVirtual":true,"quantityOrderMaximum":1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":32.00,"weight":6.00,"length":16.00,"width":16.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"chair3","rentalDuration":0,"rentalPeriod":0,"description":{"id":4,"language":"en","name":"Genuine Chair","description":"Genuine Chair","friendlyUrl":"genuine-chair","keyWords":"","highlights":"","metaDescription":"","title":"Genuine Chair"},"productPrice":{"id":52,"originalPrice":"$249.99","finalPrice":"$249.99","discounted":false,"description":{"id":4,"language":"en","name":null,"description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null,"priceAppender":null}},"finalPrice":"$249.99","originalPrice":"$249.99","discounted":false,"image":{"id":52,"imageName":"IMG_0135.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair3/SMALL/IMG_0135.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":52,"imageName":"IMG_0135.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair3/SMALL/IMG_0135.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"manufacturer":{"id":1,"code":"DEFAULT","order":0,"description":{"id":0,"language":null,"name":"DEFAULT","description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}},"attributes":[],"options":[],"variants":[],"properties":[],"categories":[{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":51,"language":null,"name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":null,"children":[]}],"type":null,"canBePurchased":true,"owner":null}]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.948 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, ae64289c-841d-410c-8d67-7ad212aee0d8 -> 0, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(ExitOnCompleteLoopBlock(ae64289c-841d-410c-8d67-7ad212aee0d8), GroupBlock(List(Open home page),1682082480691,97,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/1/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"id":0,"originalPrice":"$199.00","finalPrice":"$199.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.955 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, ae64289c-841d-410c-8d67-7ad212aee0d8 -> 0, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(ExitOnCompleteLoopBlock(ae64289c-841d-410c-8d67-7ad212aee0d8), GroupBlock(List(Open home page),1682082480691,102,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/1/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"id":0,"originalPrice":"$199.00","finalPrice":"$199.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.961 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 50, ae64289c-841d-410c-8d67-7ad212aee0d8 -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(ExitOnCompleteLoopBlock(ae64289c-841d-410c-8d67-7ad212aee0d8), GroupBlock(List(Open home page),1682082480691,107,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/50/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"id":0,"originalPrice":"$99.00","finalPrice":"$99.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.967 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 50, ae64289c-841d-410c-8d67-7ad212aee0d8 -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(ExitOnCompleteLoopBlock(ae64289c-841d-410c-8d67-7ad212aee0d8), GroupBlock(List(Open home page),1682082480691,112,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/50/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"id":0,"originalPrice":"$99.00","finalPrice":"$99.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.973 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 51, ae64289c-841d-410c-8d67-7ad212aee0d8 -> 2, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(ExitOnCompleteLoopBlock(ae64289c-841d-410c-8d67-7ad212aee0d8), GroupBlock(List(Open home page),1682082480691,116,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/51/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"id":0,"originalPrice":"$119.00","finalPrice":"$119.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.979 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 51, ae64289c-841d-410c-8d67-7ad212aee0d8 -> 2, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(ExitOnCompleteLoopBlock(ae64289c-841d-410c-8d67-7ad212aee0d8), GroupBlock(List(Open home page),1682082480691,121,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/51/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"id":0,"originalPrice":"$119.00","finalPrice":"$119.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.986 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, ae64289c-841d-410c-8d67-7ad212aee0d8 -> 3, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(ExitOnCompleteLoopBlock(ae64289c-841d-410c-8d67-7ad212aee0d8), GroupBlock(List(Open home page),1682082480691,126,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/52/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"id":0,"originalPrice":"$249.99","finalPrice":"$249.99","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:00.992 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, ae64289c-841d-410c-8d67-7ad212aee0d8 -> 3, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(ExitOnCompleteLoopBlock(ae64289c-841d-410c-8d67-7ad212aee0d8), GroupBlock(List(Open home page),1682082480691,130,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/52/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:00 GMT
+
+body:
+{"id":0,"originalPrice":"$249.99","finalPrice":"$249.99","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:03.553 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+health/ping: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open Tab with tables),1682082483547,3,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/actuator/health/ping
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/vnd.spring-boot.actuator.v3+json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:03 GMT
+
+body:
+{"status":"UP"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:03.560 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get content/boxes: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open Tab with tables),1682082483547,9,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/content/boxes/headerMessage?lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	404 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:03 GMT
+
+body:
+{"errorCode":"404","message":"Resource not found [headerMessage] for store [DEFAULT]"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:03.565 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get category: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open Tab with tables),1682082483547,14,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category?store=DEFAULT&lang=en&page=0&count=20
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:03 GMT
+
+body:
+{"totalPages":1,"number":3,"recordsTotal":3,"recordsFiltered":0,"categories":[{"id":1,"code":"DEFAULT","sortOrder":0,"visible":false,"featured":false,"lineage":"/1/","depth":0,"parent":null,"description":{"id":1,"language":"en","name":"Default category","description":"","friendlyUrl":"default-category","keyWords":null,"highlights":"","metaDescription":"","title":"Default category"},"productCount":0,"store":"DEFAULT","children":[]},{"id":50,"code":"tables","sortOrder":100,"visible":true,"featured":false,"lineage":"/50/","depth":0,"parent":null,"description":{"id":2,"language":"en","name":"Tables","description":"","friendlyUrl":"tables","keyWords":null,"highlights":"","metaDescription":"","title":"Tables"},"productCount":0,"store":"DEFAULT","children":[]},{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":3,"language":"en","name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":"DEFAULT","children":[]}]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:03.570 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get content/pages: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open Tab with tables),1682082483547,17,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/content/pages?store=DEFAULT&lang=en&page=0&count=20
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:03 GMT
+
+body:
+{"totalPages":0,"number":0,"recordsTotal":0,"recordsFiltered":0,"items":[]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:03.573 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get store/DEFAULT: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open Tab with tables),1682082483547,20,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/store/DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:03 GMT
+
+body:
+{"id":1,"code":"DEFAULT","name":"Default store","defaultLanguage":"en","currency":"CAD","inBusinessSince":"2021-10-02","email":"admin@shopizer.com","phone":"888-888-8888","template":null,"useCache":false,"currencyFormatNational":true,"retailer":true,"dimension":"IN","weight":"LB","currentUserLanguage":null,"address":{"stateProvince":"QC","country":"CA","address":"1234 Street address","postalCode":"H2H-2H2","city":"My city","active":true},"logo":{"name":"shopizer_resized_transparent.png","path":"http://localhost:8080/static/files/DEFAULT/LOGO/shopizer_resized_transparent.png"},"parent":null,"supportedLanguages":[{"code":"en","id":1}],"readableAudit":{"created":null,"modified":"2023-04-21","user":"admin@shopizer.com"}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:03.579 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get category/store: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open Tab with tables),1682082483547,24,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category/50?store=DEFAULT&lang=en&store=DEFAULT&lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:03 GMT
+
+body:
+{"id":50,"code":"tables","sortOrder":100,"visible":true,"featured":false,"lineage":"/50/","depth":0,"parent":null,"description":{"id":2,"language":"en","name":"Tables","description":"","friendlyUrl":"tables","keyWords":null,"highlights":"","metaDescription":"","title":"Tables"},"productCount":0,"store":"DEFAULT","children":[]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:03.585 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get category/manufacturers: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1, 50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open Tab with tables),1682082483547,29,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category/50/manufacturers?store=DEFAULT&lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:03 GMT
+
+body:
+[{"id":1,"code":"DEFAULT","order":0,"description":{"id":1,"language":"en","name":"DEFAULT","description":"DEFAULT","friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}}]
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:03.593 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get products/store: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open Tab with tables),1682082483547,36,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/products?store=DEFAULT&lang=en&page=0&count=15&category=50
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:03 GMT
+
+body:
+{"totalPages":1,"number":1,"recordsTotal":1,"recordsFiltered":0,"products":[{"id":1,"productShipeable":true,"available":true,"visible":true,"sortOrder":100,"dateAvailable":"2022-01-10","creationDate":"2022-01-10","price":199.00,"quantity":1000,"sku":"table1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":22.00,"weight":12.00,"length":16.00,"width":40.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"table1","rentalDuration":0,"rentalPeriod":0,"description":{"id":1,"language":"en","name":"Olive Table","description":"Olive Table","friendlyUrl":"olive-table","keyWords":"","highlights":"","metaDescription":"","title":"Olive Table"},"productPrice":{"id":1,"originalPrice":"$199.00","finalPrice":"$199.00","discounted":false,"description":{"id":1,"language":"en","name":null,"description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null,"priceAppender":null}},"finalPrice":"$199.00","originalPrice":"$199.00","discounted":false,"image":{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"manufacturer":{"id":1,"code":"DEFAULT","order":0,"description":{"id":0,"language":null,"name":"DEFAULT","description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}},"attributes":[],"options":[],"variants":[],"properties":[],"categories":[{"id":50,"code":"tables","sortOrder":100,"visible":true,"featured":false,"lineage":"/50/","depth":0,"parent":null,"description":{"id":50,"language":null,"name":"Tables","description":"","friendlyUrl":"tables","keyWords":null,"highlights":"","metaDescription":"","title":"Tables"},"productCount":0,"store":null,"children":[]}],"type":null,"canBePurchased":true,"owner":null}]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:03.602 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, 955a97e0-c03a-4c28-a9a8-137a72e20160 -> 0, id -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(ExitOnCompleteLoopBlock(955a97e0-c03a-4c28-a9a8-137a72e20160), GroupBlock(List(Open Tab with tables),1682082483547,43,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/1/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:03 GMT
+
+body:
+{"id":0,"originalPrice":"$199.00","finalPrice":"$199.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:03.663 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get Category/variants: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Open Tab with tables),1682082483547,104,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category/50/variants?lang=en&store=DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	404 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Vary: Origin
+	Vary: Access-Control-Request-Method
+	Vary: Access-Control-Request-Headers
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:03 GMT
+
+body:
+{"timestamp":"2023-04-21T13:08:03.661+0000","status":404,"error":"Not Found","path":"/api/v1/category/50/variants"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:07.870 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+health/ping: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Click on table),1682082487864,4,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/actuator/health/ping
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/vnd.spring-boot.actuator.v3+json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:07 GMT
+
+body:
+{"status":"UP"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:07.879 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get content/boxes: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Click on table),1682082487864,12,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/content/boxes/headerMessage?lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	404 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:07 GMT
+
+body:
+{"errorCode":"404","message":"Resource not found [headerMessage] for store [DEFAULT]"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:07.885 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get category: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Click on table),1682082487864,16,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category?store=DEFAULT&lang=en&page=0&count=20
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:07 GMT
+
+body:
+{"totalPages":1,"number":3,"recordsTotal":3,"recordsFiltered":0,"categories":[{"id":1,"code":"DEFAULT","sortOrder":0,"visible":false,"featured":false,"lineage":"/1/","depth":0,"parent":null,"description":{"id":1,"language":"en","name":"Default category","description":"","friendlyUrl":"default-category","keyWords":null,"highlights":"","metaDescription":"","title":"Default category"},"productCount":0,"store":"DEFAULT","children":[]},{"id":50,"code":"tables","sortOrder":100,"visible":true,"featured":false,"lineage":"/50/","depth":0,"parent":null,"description":{"id":2,"language":"en","name":"Tables","description":"","friendlyUrl":"tables","keyWords":null,"highlights":"","metaDescription":"","title":"Tables"},"productCount":0,"store":"DEFAULT","children":[]},{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":3,"language":"en","name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":"DEFAULT","children":[]}]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:07.889 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get content/pages: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Click on table),1682082487864,19,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/content/pages?store=DEFAULT&lang=en&page=0&count=20
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:07 GMT
+
+body:
+{"totalPages":0,"number":0,"recordsTotal":0,"recordsFiltered":0,"items":[]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:07.893 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get store/DEFAULT: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Click on table),1682082487864,23,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/store/DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:07 GMT
+
+body:
+{"id":1,"code":"DEFAULT","name":"Default store","defaultLanguage":"en","currency":"CAD","inBusinessSince":"2021-10-02","email":"admin@shopizer.com","phone":"888-888-8888","template":null,"useCache":false,"currencyFormatNational":true,"retailer":true,"dimension":"IN","weight":"LB","currentUserLanguage":null,"address":{"stateProvince":"QC","country":"CA","address":"1234 Street address","postalCode":"H2H-2H2","city":"My city","active":true},"logo":{"name":"shopizer_resized_transparent.png","path":"http://localhost:8080/static/files/DEFAULT/LOGO/shopizer_resized_transparent.png"},"parent":null,"supportedLanguages":[{"code":"en","id":1}],"readableAudit":{"created":null,"modified":"2023-04-21","user":"admin@shopizer.com"}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:07.897 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get products/reviews: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Click on table),1682082487864,27,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/products/1/reviews?store=DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:07 GMT
+
+body:
+[]
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:07.904 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get products/store=DEFAULT: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(GroupBlock(List(Click on table),1682082487864,32,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/products/1?lang=en&store=DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:07 GMT
+
+body:
+{"id":1,"productShipeable":true,"available":true,"visible":true,"sortOrder":100,"dateAvailable":"2022-01-10","creationDate":"2022-01-10","price":199.00,"quantity":1000,"sku":"table1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":22.00,"weight":12.00,"length":16.00,"width":40.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"table1","rentalDuration":0,"rentalPeriod":0,"description":{"id":1,"language":"en","name":"Olive Table","description":"Olive Table","friendlyUrl":"olive-table","keyWords":"","highlights":"","metaDescription":"","title":"Olive Table"},"productPrice":{"id":1,"originalPrice":"$199.00","finalPrice":"$199.00","discounted":false,"description":{"id":1,"language":"en","name":null,"description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null,"priceAppender":null}},"finalPrice":"$199.00","originalPrice":"$199.00","discounted":false,"image":{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"manufacturer":{"id":1,"code":"DEFAULT","order":0,"description":{"id":0,"language":null,"name":"DEFAULT","description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}},"attributes":[],"options":[],"variants":[],"properties":[],"categories":[{"id":50,"code":"tables","sortOrder":100,"visible":true,"featured":false,"lineage":"/50/","depth":0,"parent":null,"description":{"id":50,"language":null,"name":"Tables","description":"","friendlyUrl":"tables","keyWords":null,"highlights":"","metaDescription":"","title":"Tables"},"productCount":0,"store":null,"children":[]}],"type":null,"canBePurchased":true,"owner":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:07.909 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5, gatling.http.referer -> http://localhost/, 40bde71b-fbb4-437a-8f3c-718b0b0b235f -> 0, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940),OK,List(ExitOnCompleteLoopBlock(40bde71b-fbb4-437a-8f3c-718b0b0b235f), GroupBlock(List(Click on table),1682082487864,36,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/1/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:07 GMT
+
+body:
+{"id":0,"originalPrice":"$199.00","finalPrice":"$199.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:11.466 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Add to cart button: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Add table to cart),1682082491445,17,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/cart?store=DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 49
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"attributes":[],"product":"table1","quantity":2}}
+=========================
+HTTP response:
+status:
+	201 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:11 GMT
+
+body:
+{"id":375,"language":null,"code":"b85b5e760292434b8f795148b381861d","subtotal":398.00,"displaySubTotal":"$398.00","total":398.00,"displayTotal":"$398.00","quantity":2,"order":null,"promoCode":null,"variant":null,"products":[{"id":1,"productShipeable":true,"available":true,"visible":true,"sortOrder":100,"dateAvailable":"2022-01-10","creationDate":null,"price":199.00,"quantity":2,"sku":"table1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":-1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":22.00,"weight":12.00,"length":16.00,"width":40.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"table1","rentalDuration":0,"rentalPeriod":0,"description":{"id":1,"language":"en","name":"Olive Table","description":"Olive Table","friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null},"productPrice":null,"finalPrice":"$199.00","originalPrice":"$199.00","image":{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"subTotal":398.00,"displaySubTotal":"$398.00","cartItemattributes":[],"variant":null,"variantValue":null}],"totals":[{"id":0,"title":null,"text":null,"code":"order.total.subtotal","order":0,"module":null,"value":398.00,"total":null,"discounted":false},{"id":0,"title":null,"text":null,"code":"order.total.total","order":0,"module":null,"value":398.00,"total":null,"discounted":false}],"customer":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:11.476 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get cart/id: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Add table to cart),1682082491445,26,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/cart/b85b5e760292434b8f795148b381861d?lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:11 GMT
+
+body:
+{"id":375,"language":null,"code":"b85b5e760292434b8f795148b381861d","subtotal":398.00,"displaySubTotal":"$398.00","total":398.00,"displayTotal":"$398.00","quantity":2,"order":null,"promoCode":null,"variant":null,"products":[{"id":1,"productShipeable":true,"available":true,"visible":true,"sortOrder":100,"dateAvailable":"2022-01-10","creationDate":null,"price":199.00,"quantity":2,"sku":"table1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":-1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":22.00,"weight":12.00,"length":16.00,"width":40.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"table1","rentalDuration":0,"rentalPeriod":0,"description":{"id":1,"language":"en","name":"Olive Table","description":"Olive Table","friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null},"productPrice":null,"finalPrice":"$199.00","originalPrice":"$199.00","image":{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"subTotal":398.00,"displaySubTotal":"$398.00","cartItemattributes":[],"variant":null,"variantValue":null}],"totals":[{"id":0,"title":null,"text":null,"code":"order.total.subtotal","order":0,"module":null,"value":398.00,"total":null,"discounted":false},{"id":0,"title":null,"text":null,"code":"order.total.total","order":0,"module":null,"value":398.00,"total":null,"discounted":false}],"customer":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.393 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+health/ping: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Open tab with chairs 100.0),1682082494385,5,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/actuator/health/ping
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/vnd.spring-boot.actuator.v3+json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"status":"UP"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.406 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get content/boxes: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Open tab with chairs 100.0),1682082494385,16,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/content/boxes/headerMessage?lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	404 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"errorCode":"404","message":"Resource not found [headerMessage] for store [DEFAULT]"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.412 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get category: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Open tab with chairs 100.0),1682082494385,20,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category?store=DEFAULT&lang=en&page=0&count=20
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"totalPages":1,"number":3,"recordsTotal":3,"recordsFiltered":0,"categories":[{"id":1,"code":"DEFAULT","sortOrder":0,"visible":false,"featured":false,"lineage":"/1/","depth":0,"parent":null,"description":{"id":1,"language":"en","name":"Default category","description":"","friendlyUrl":"default-category","keyWords":null,"highlights":"","metaDescription":"","title":"Default category"},"productCount":0,"store":"DEFAULT","children":[]},{"id":50,"code":"tables","sortOrder":100,"visible":true,"featured":false,"lineage":"/50/","depth":0,"parent":null,"description":{"id":2,"language":"en","name":"Tables","description":"","friendlyUrl":"tables","keyWords":null,"highlights":"","metaDescription":"","title":"Tables"},"productCount":0,"store":"DEFAULT","children":[]},{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":3,"language":"en","name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":"DEFAULT","children":[]}]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.417 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get content/pages: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Open tab with chairs 100.0),1682082494385,25,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/content/pages?store=DEFAULT&lang=en&page=0&count=20
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"totalPages":0,"number":0,"recordsTotal":0,"recordsFiltered":0,"items":[]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.421 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get store/DEFAULT: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.referer -> http://localhost/, allProductsID -> Vector(1), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Open tab with chairs 100.0),1682082494385,28,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/store/DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"id":1,"code":"DEFAULT","name":"Default store","defaultLanguage":"en","currency":"CAD","inBusinessSince":"2021-10-02","email":"admin@shopizer.com","phone":"888-888-8888","template":null,"useCache":false,"currencyFormatNational":true,"retailer":true,"dimension":"IN","weight":"LB","currentUserLanguage":null,"address":{"stateProvince":"QC","country":"CA","address":"1234 Street address","postalCode":"H2H-2H2","city":"My city","active":true},"logo":{"name":"shopizer_resized_transparent.png","path":"http://localhost:8080/static/files/DEFAULT/LOGO/shopizer_resized_transparent.png"},"parent":null,"supportedLanguages":[{"code":"en","id":1}],"readableAudit":{"created":null,"modified":"2023-04-21","user":"admin@shopizer.com"}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.432 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get products/store=DEFAULT: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 1, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Open tab with chairs 100.0),1682082494385,36,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/products?store=DEFAULT&lang=en&page=0&count=15&category=51
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"totalPages":1,"number":3,"recordsTotal":3,"recordsFiltered":0,"products":[{"id":50,"productShipeable":true,"available":true,"visible":true,"sortOrder":300,"dateAvailable":"2022-01-10","creationDate":"2022-01-11","price":99.00,"quantity":1000,"sku":"chair1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":32.00,"weight":4.00,"length":22.00,"width":44.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"chair1","rentalDuration":0,"rentalPeriod":0,"description":{"id":2,"language":"en","name":"Chair","description":"Chair from Thailand","friendlyUrl":"chair","keyWords":"","highlights":"","metaDescription":"","title":"Chair"},"productPrice":{"id":50,"originalPrice":"$99.00","finalPrice":"$99.00","discounted":false,"description":{"id":2,"language":"en","name":null,"description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null,"priceAppender":null}},"finalPrice":"$99.00","originalPrice":"$99.00","discounted":false,"image":{"id":50,"imageName":"ADESSO CHAIR BLACK_burned.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair1/SMALL/ADESSO CHAIR BLACK_burned.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":50,"imageName":"ADESSO CHAIR BLACK_burned.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair1/SMALL/ADESSO CHAIR BLACK_burned.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"manufacturer":{"id":1,"code":"DEFAULT","order":0,"description":{"id":0,"language":null,"name":"DEFAULT","description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}},"attributes":[],"options":[],"variants":[],"properties":[],"categories":[{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":51,"language":null,"name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":null,"children":[]}],"type":null,"canBePurchased":true,"owner":null},{"id":51,"productShipeable":true,"available":true,"visible":true,"sortOrder":320,"dateAvailable":"2022-01-10","creationDate":"2022-01-11","price":119.00,"quantity":1000,"sku":"chair2","preOrder":false,"productVirtual":true,"quantityOrderMaximum":1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":32.00,"weight":4.00,"length":16.00,"width":16.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"chair2","rentalDuration":0,"rentalPeriod":0,"description":{"id":3,"language":"en","name":"Chair Beige","description":"Beige Chair","friendlyUrl":"chair-beige","keyWords":"","highlights":"","metaDescription":"","title":"Chair Beige"},"productPrice":{"id":51,"originalPrice":"$119.00","finalPrice":"$119.00","discounted":false,"description":{"id":3,"language":"en","name":null,"description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null,"priceAppender":null}},"finalPrice":"$119.00","originalPrice":"$119.00","discounted":false,"image":{"id":51,"imageName":"ADESSO CHAIR TAUPE VIEW 5.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair2/SMALL/ADESSO CHAIR TAUPE VIEW 5.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":51,"imageName":"ADESSO CHAIR TAUPE VIEW 5.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair2/SMALL/ADESSO CHAIR TAUPE VIEW 5.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"manufacturer":{"id":1,"code":"DEFAULT","order":0,"description":{"id":0,"language":null,"name":"DEFAULT","description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}},"attributes":[],"options":[],"variants":[],"properties":[],"categories":[{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":51,"language":null,"name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":null,"children":[]}],"type":null,"canBePurchased":true,"owner":null},{"id":52,"productShipeable":true,"available":true,"visible":true,"sortOrder":340,"dateAvailable":"2022-01-10","creationDate":"2022-01-11","price":249.99,"quantity":500,"sku":"chair3","preOrder":false,"productVirtual":true,"quantityOrderMaximum":1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":32.00,"weight":6.00,"length":16.00,"width":16.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"chair3","rentalDuration":0,"rentalPeriod":0,"description":{"id":4,"language":"en","name":"Genuine Chair","description":"Genuine Chair","friendlyUrl":"genuine-chair","keyWords":"","highlights":"","metaDescription":"","title":"Genuine Chair"},"productPrice":{"id":52,"originalPrice":"$249.99","finalPrice":"$249.99","discounted":false,"description":{"id":4,"language":"en","name":null,"description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null,"priceAppender":null}},"finalPrice":"$249.99","originalPrice":"$249.99","discounted":false,"image":{"id":52,"imageName":"IMG_0135.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair3/SMALL/IMG_0135.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":52,"imageName":"IMG_0135.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/chair3/SMALL/IMG_0135.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"manufacturer":{"id":1,"code":"DEFAULT","order":0,"description":{"id":0,"language":null,"name":"DEFAULT","description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}},"attributes":[],"options":[],"variants":[],"properties":[],"categories":[{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":51,"language":null,"name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":null,"children":[]}],"type":null,"canBePurchased":true,"owner":null}]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.440 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, c4539455-5f82-42fc-a72b-dc1b640b3d99 -> 0, id -> 50, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(ExitOnCompleteLoopBlock(c4539455-5f82-42fc-a72b-dc1b640b3d99), GroupBlock(List(Open tab with chairs 100.0),1682082494385,43,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/50/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"id":0,"originalPrice":"$99.00","finalPrice":"$99.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.446 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, c4539455-5f82-42fc-a72b-dc1b640b3d99 -> 1, id -> 51, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(ExitOnCompleteLoopBlock(c4539455-5f82-42fc-a72b-dc1b640b3d99), GroupBlock(List(Open tab with chairs 100.0),1682082494385,48,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/51/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"id":0,"originalPrice":"$119.00","finalPrice":"$119.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.453 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, c4539455-5f82-42fc-a72b-dc1b640b3d99 -> 2, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(ExitOnCompleteLoopBlock(c4539455-5f82-42fc-a72b-dc1b640b3d99), GroupBlock(List(Open tab with chairs 100.0),1682082494385,54,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/52/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"id":0,"originalPrice":"$249.99","finalPrice":"$249.99","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.458 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get category/store=DEFAULT: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Open tab with chairs 100.0),1682082494385,58,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category/51?store=DEFAULT&lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":3,"language":"en","name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":"DEFAULT","children":[]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.465 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get category/51/manufacturers: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Open tab with chairs 100.0),1682082494385,64,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category/51/manufacturers?store=DEFAULT&lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+[{"id":1,"code":"DEFAULT","order":0,"description":{"id":1,"language":"en","name":"DEFAULT","description":"DEFAULT","friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}}]
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:14.531 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get category/variants: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Open tab with chairs 100.0),1682082494385,129,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category/51/variants?store=DEFAULT&lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	404 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Vary: Origin
+	Vary: Access-Control-Request-Method
+	Vary: Access-Control-Request-Headers
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:14 GMT
+
+body:
+{"timestamp":"2023-04-21T13:08:14.529+0000","status":404,"error":"Not Found","path":"/api/v1/category/51/variants"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:18.244 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+health/ping: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Select Random Chair),1682082498235,6,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/actuator/health/ping
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/vnd.spring-boot.actuator.v3+json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:18 GMT
+
+body:
+{"status":"UP"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:18.255 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get content/boxes: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Select Random Chair),1682082498235,16,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/content/boxes/headerMessage?lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	404 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:18 GMT
+
+body:
+{"errorCode":"404","message":"Resource not found [headerMessage] for store [DEFAULT]"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:18.261 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get category: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Select Random Chair),1682082498235,20,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/category?store=DEFAULT&lang=en&page=0&count=20
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:18 GMT
+
+body:
+{"totalPages":1,"number":3,"recordsTotal":3,"recordsFiltered":0,"categories":[{"id":1,"code":"DEFAULT","sortOrder":0,"visible":false,"featured":false,"lineage":"/1/","depth":0,"parent":null,"description":{"id":1,"language":"en","name":"Default category","description":"","friendlyUrl":"default-category","keyWords":null,"highlights":"","metaDescription":"","title":"Default category"},"productCount":0,"store":"DEFAULT","children":[]},{"id":50,"code":"tables","sortOrder":100,"visible":true,"featured":false,"lineage":"/50/","depth":0,"parent":null,"description":{"id":2,"language":"en","name":"Tables","description":"","friendlyUrl":"tables","keyWords":null,"highlights":"","metaDescription":"","title":"Tables"},"productCount":0,"store":"DEFAULT","children":[]},{"id":51,"code":"chairs","sortOrder":200,"visible":true,"featured":false,"lineage":"/51/","depth":0,"parent":null,"description":{"id":3,"language":"en","name":"Chairs","description":"","friendlyUrl":"chairs","keyWords":null,"highlights":"","metaDescription":"","title":"Chairs"},"productCount":0,"store":"DEFAULT","children":[]}]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:18.265 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get content/pages: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Select Random Chair),1682082498235,24,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/content/pages?store=DEFAULT&lang=en&page=0&count=20
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:18 GMT
+
+body:
+{"totalPages":0,"number":0,"recordsTotal":0,"recordsFiltered":0,"items":[]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:18.272 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get products/DEFAULT: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Select Random Chair),1682082498235,30,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/products/1?lang=en&store=DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:18 GMT
+
+body:
+{"id":1,"productShipeable":true,"available":true,"visible":true,"sortOrder":100,"dateAvailable":"2022-01-10","creationDate":"2022-01-10","price":199.00,"quantity":1000,"sku":"table1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":22.00,"weight":12.00,"length":16.00,"width":40.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"table1","rentalDuration":0,"rentalPeriod":0,"description":{"id":1,"language":"en","name":"Olive Table","description":"Olive Table","friendlyUrl":"olive-table","keyWords":"","highlights":"","metaDescription":"","title":"Olive Table"},"productPrice":{"id":1,"originalPrice":"$199.00","finalPrice":"$199.00","discounted":false,"description":{"id":1,"language":"en","name":null,"description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null,"priceAppender":null}},"finalPrice":"$199.00","originalPrice":"$199.00","discounted":false,"image":{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"manufacturer":{"id":1,"code":"DEFAULT","order":0,"description":{"id":0,"language":null,"name":"DEFAULT","description":null,"friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null}},"attributes":[],"options":[],"variants":[],"properties":[],"categories":[{"id":50,"code":"tables","sortOrder":100,"visible":true,"featured":false,"lineage":"/50/","depth":0,"parent":null,"description":{"id":50,"language":null,"name":"Tables","description":"","friendlyUrl":"tables","keyWords":null,"highlights":"","metaDescription":"","title":"Tables"},"productCount":0,"store":null,"children":[]}],"type":null,"canBePurchased":true,"owner":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:18.278 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get products/reviews: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Select Random Chair),1682082498235,35,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/products/1/reviews?store=DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:18 GMT
+
+body:
+[]
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:18.283 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get store/DEFAULT: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Select Random Chair),1682082498235,38,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/store/DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:18 GMT
+
+body:
+{"id":1,"code":"DEFAULT","name":"Default store","defaultLanguage":"en","currency":"CAD","inBusinessSince":"2021-10-02","email":"admin@shopizer.com","phone":"888-888-8888","template":null,"useCache":false,"currencyFormatNational":true,"retailer":true,"dimension":"IN","weight":"LB","currentUserLanguage":null,"address":{"stateProvince":"QC","country":"CA","address":"1234 Street address","postalCode":"H2H-2H2","city":"My city","active":true},"logo":{"name":"shopizer_resized_transparent.png","path":"http://localhost:8080/static/files/DEFAULT/LOGO/shopizer_resized_transparent.png"},"parent":null,"supportedLanguages":[{"code":"en","id":1}],"readableAudit":{"created":null,"modified":"2023-04-21","user":"admin@shopizer.com"}}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:18.288 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Price: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Select Random Chair),1682082498235,43,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/product/1/price/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 14
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"options":[]}}
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:18 GMT
+
+body:
+{"id":0,"originalPrice":"$199.00","finalPrice":"$199.00","discounted":false,"description":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:22.436 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get cart/id: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> b85b5e760292434b8f795148b381861d, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Add chair to cart),1682082502424,11,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/cart/b85b5e760292434b8f795148b381861d?lang=en
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:22 GMT
+
+body:
+{"id":375,"language":null,"code":"b85b5e760292434b8f795148b381861d","subtotal":398.00,"displaySubTotal":"$398.00","total":398.00,"displayTotal":"$398.00","quantity":2,"order":null,"promoCode":null,"variant":null,"products":[{"id":1,"productShipeable":true,"available":true,"visible":true,"sortOrder":100,"dateAvailable":"2022-01-10","creationDate":null,"price":199.00,"quantity":2,"sku":"table1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":-1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":22.00,"weight":12.00,"length":16.00,"width":40.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"table1","rentalDuration":0,"rentalPeriod":0,"description":{"id":1,"language":"en","name":"Olive Table","description":"Olive Table","friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null},"productPrice":null,"finalPrice":"$199.00","originalPrice":"$199.00","image":{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"subTotal":398.00,"displaySubTotal":"$398.00","cartItemattributes":[],"variant":null,"variantValue":null}],"totals":[{"id":0,"title":null,"text":null,"code":"order.total.subtotal","order":0,"module":null,"value":398.00,"total":null,"discounted":false},{"id":0,"title":null,"text":null,"code":"order.total.total","order":0,"module":null,"value":398.00,"total":null,"discounted":false}],"customer":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:22.450 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Add to cart button: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> ac4d9bd7935e4e73b024f5356c805a90, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Add chair to cart),1682082502424,23,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+POST http://localhost:8080/api/v1/cart?store=DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: application/json
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	origin: http://localhost
+	host: localhost:8080
+	content-type: application/json
+	content-length: 49
+body:StringChunksRequestBody{contentType='application/json', charset=UTF-8, content={"attributes":[],"product":"table1","quantity":2}}
+=========================
+HTTP response:
+status:
+	201 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: http://localhost
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:22 GMT
+
+body:
+{"id":376,"language":null,"code":"ac4d9bd7935e4e73b024f5356c805a90","subtotal":398.00,"displaySubTotal":"$398.00","total":398.00,"displayTotal":"$398.00","quantity":2,"order":null,"promoCode":null,"variant":null,"products":[{"id":1,"productShipeable":true,"available":true,"visible":true,"sortOrder":100,"dateAvailable":"2022-01-10","creationDate":null,"price":199.00,"quantity":2,"sku":"table1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":-1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":22.00,"weight":12.00,"length":16.00,"width":40.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"table1","rentalDuration":0,"rentalPeriod":0,"description":{"id":1,"language":"en","name":"Olive Table","description":"Olive Table","friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null},"productPrice":null,"finalPrice":"$199.00","originalPrice":"$199.00","image":{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"subTotal":398.00,"displaySubTotal":"$398.00","cartItemattributes":[],"variant":null,"variantValue":null}],"totals":[{"id":0,"title":null,"text":null,"code":"order.total.subtotal","order":0,"module":null,"value":398.00,"total":null,"discounted":false},{"id":0,"title":null,"text":null,"code":"order.total.total","order":0,"module":null,"value":398.00,"total":null,"discounted":false}],"customer":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:25.217 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get zones/code: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, 013de02b-e9ff-452b-aed0-ce423d6aeeb4 -> 0, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> ac4d9bd7935e4e73b024f5356c805a90, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(ExitOnCompleteLoopBlock(013de02b-e9ff-452b-aed0-ce423d6aeeb4), GroupBlock(List(Checkout 100.0),1682082505210,5,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/zones/?code=
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:25 GMT
+
+body:
+[]
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:25.222 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get zones/code: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, 013de02b-e9ff-452b-aed0-ce423d6aeeb4 -> 1, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> ac4d9bd7935e4e73b024f5356c805a90, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(ExitOnCompleteLoopBlock(013de02b-e9ff-452b-aed0-ce423d6aeeb4), GroupBlock(List(Checkout 100.0),1682082505210,8,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/zones/?code=
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:25 GMT
+
+body:
+[]
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:25.231 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Click checkout button from cart icon 1: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> ac4d9bd7935e4e73b024f5356c805a90, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Checkout 100.0),1682082505210,17,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/cart/ac4d9bd7935e4e73b024f5356c805a90?store=DEFAULT
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:25 GMT
+
+body:
+{"id":376,"language":null,"code":"ac4d9bd7935e4e73b024f5356c805a90","subtotal":398.00,"displaySubTotal":"$398.00","total":398.00,"displayTotal":"$398.00","quantity":2,"order":null,"promoCode":null,"variant":null,"products":[{"id":1,"productShipeable":true,"available":true,"visible":true,"sortOrder":100,"dateAvailable":"2022-01-10","creationDate":null,"price":199.00,"quantity":2,"sku":"table1","preOrder":false,"productVirtual":true,"quantityOrderMaximum":-1,"quantityOrderMinimum":1,"productIsFree":false,"productSpecifications":{"height":22.00,"weight":12.00,"length":16.00,"width":40.00,"model":null,"manufacturer":null,"dimensionUnitOfMeasure":null,"weightUnitOfMeasure":null},"rating":0.0,"ratingCount":0,"refSku":"table1","rentalDuration":0,"rentalPeriod":0,"description":{"id":1,"language":"en","name":"Olive Table","description":"Olive Table","friendlyUrl":null,"keyWords":null,"highlights":null,"metaDescription":null,"title":null},"productPrice":null,"finalPrice":"$199.00","originalPrice":"$199.00","image":{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true},"images":[{"id":2,"imageName":"console-1.jpg","imageUrl":"http://localhost:8080/static/products/DEFAULT/table1/SMALL/console-1.jpg","externalUrl":null,"videoUrl":null,"imageType":0,"order":0,"defaultImage":true}],"subTotal":398.00,"displaySubTotal":"$398.00","cartItemattributes":[],"variant":null,"variantValue":null}],"totals":[{"id":0,"title":null,"text":null,"code":"order.total.subtotal","order":0,"module":null,"value":398.00,"total":null,"discounted":false},{"id":0,"title":null,"text":null,"code":"order.total.total","order":0,"module":null,"value":398.00,"total":null,"discounted":false}],"customer":null}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:25.237 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get config: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> ac4d9bd7935e4e73b024f5356c805a90, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Checkout 100.0),1682082505210,23,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/config/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:25 GMT
+
+body:
+{"facebook":null,"pinterest":null,"ga":null,"instagram":null,"allowOnlinePurchase":true,"displaySearchBox":true,"displayContactUs":false,"displayShipping":true,"displayCustomerSection":false,"displayAddToCartOnFeaturedItems":true,"displayCustomerAgreement":false,"displayPagesMenu":true}
+<<<<<<<<<<<<<<<<<<<<<<<<<
+15:08:25.244 [gatling-1-2] TRACE i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Get total: OK 
+=========================
+Session:
+Session(Buy Table or Chair,1,HashMap(randomProductID -> 1, id -> 52, gatling.http.referer -> http://localhost/, allProductsID -> Vector(50, 51, 52), 1e65ea26-f871-4c3b-82be-5d891a1c7045 -> 0, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@2600612f, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@b67c940, CartId -> ac4d9bd7935e4e73b024f5356c805a90, gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@66fd53f5),OK,List(GroupBlock(List(Checkout 100.0),1682082505210,30,OK), TryMaxBlock(1e65ea26-f871-4c3b-82be-5d891a1c7045,io.gatling.core.action.InnerTryMax@1f60dc2b,OK)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$607/0x00000008014b8b58@130e56c9,io.netty.channel.nio.NioEventLoop@1dfd5f51)
+=========================
+HTTP request:
+GET http://localhost:8080/api/v1/cart/ac4d9bd7935e4e73b024f5356c805a90/total/
+headers:
+	accept-language: en-GB,en-US;q=0.9,en;q=0.8
+	accept-encoding: gzip, deflate, br
+	accept: */*
+	upgrade-insecure-requests: 1
+	user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+	referer: http://localhost/
+	host: localhost:8080
+=========================
+HTTP response:
+status:
+	200 
+headers:
+	Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE, PATCH
+	Access-Control-Allow-Origin: *
+	Access-Control-Allow-Headers: X-Auth-Token, Content-Type, Authorization, Cache-Control, X-Requested-With
+	Access-Control-Allow-Credentials: true
+	Content-Type: application/json
+	Transfer-Encoding: chunked
+	Date: Fri, 21 Apr 2023 13:08:25 GMT
+
+body:
+{"subTotal":"$398.00","total":"$398.00","taxTotal":null,"totals":[{"id":null,"title":"Subtotal","text":null,"code":"order.total.subtotal","order":5,"module":"subtotal","value":398.00,"total":"$398.00","discounted":false},{"id":null,"title":"Total","text":null,"code":"order.total.total","order":500,"module":"total","value":398.00,"total":"$398.00","discounted":false}]}
+<<<<<<<<<<<<<<<<<<<<<<<<<
